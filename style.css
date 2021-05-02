@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background-color: aqua;
+}
+header{
+    height: 60px;    
+    padding: 20px;
+    position: relative;
+}
+
+.form-singup{
+    background-color: blueviolet;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    position: absolute;
+    right: 5px;
+    display: none;
+    
+}
+
+
+.lbl{
+    padding: 5px;
+    background-color:blueviolet;
+    position: absolute;
+    right: 30px;
+    border-radius: 10px;
+    
+}
+.chk{
+    display: none;
+}
+
+.chk:checked + .form-singup{
+    display: block;
+}
+
+.grid{
+    display: grid;
+    grid-template-rows:auto auto;
+}
