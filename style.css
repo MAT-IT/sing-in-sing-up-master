@@ -36,6 +36,12 @@ header{
 .chk:checked + .form-singup{
     display: block;
 }
+.chek{
+    display: none;
+}
+.chek:checked + .form-singin{
+    display: block;
+}
 
 .grid{
     display: grid;
