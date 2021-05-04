@@ -20,6 +20,18 @@ header{
     
 }
 
+.form-singin{
+    background-color: blueviolet;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    position: absolute;
+    left: 5px;
+    display: none;
+    
+}
+
 
 .lbl{
     padding: 5px;
@@ -28,6 +40,14 @@ header{
     right: 30px;
     border-radius: 10px;
     
+}
+
+.lblin{
+    padding: 5px;
+    background-color: blueviolet;
+    position: absolute;
+    left:30px;
+    border-radius: 10px;
 }
 .chk{
     display: none;
